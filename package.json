@@ -1,0 +1,38 @@
+{
+  "name": "electron-quick-start-typescript",
+  "version": "1.0.0",
+  "description": "A minimal Electron application written with Typescript",
+  "scripts": {
+    "build": "webpack",
+    "lint": "tslint -c tslint.json -p tsconfig.json --fix",
+    "pret": "prettier --single-quote es5 --write \"app/**/*.*\"",
+    "start": "npm run build && electron ./dist/main.js"
+  },
+  "repository": "https://github.com/electron/electron-quick-start-typescript",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo",
+    "typescript"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^6.0.8",
+    "tslint": "^5.19.0",
+    "typescript": "^3.6.0"
+  },
+  "dependencies": {
+    "@types/react": "^16.9.23",
+    "@types/react-dom": "^16.9.5",
+    "html-webpack-plugin": "^3.2.0",
+    "prettier": "^1.19.1",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "ts-loader": "^6.2.1",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  }
+}
